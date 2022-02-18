@@ -1,0 +1,7 @@
+.blank {
+	background-color: whitesmoke;
+	color: darkgrey;
+	width: 100%;
+	min-height: 90vh;
+	padding: 2rem;
+}

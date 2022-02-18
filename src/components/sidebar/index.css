@@ -1,0 +1,72 @@
+.sidebarContainer {
+	width: 7rem;
+	background: #4e73df;
+	min-height: 100vh;
+	height: min-content;
+	position: fixed;
+}
+.sidebarContainer ul {
+	display: flex;
+	width: 7rem;
+	flex-direction: column;
+	font-size: 0.75rem;
+	color: white;
+}
+.sidebarContainer span {
+	text-align: center;
+	width: 100%;
+}
+.sidebarContainer li {
+	outline: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 7rem;
+	padding: 0.75rem;
+	list-style: none;
+	cursor: pointer;
+}
+.group {
+	position: relative;
+}
+.group p {
+	width: 100%;
+	text-align: start;
+}
+.group:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 90%;
+	height: 0.1rem;
+	background-color: hsl(0, 100%, 100%, 0.2);
+}
+.sidebarContainer p {
+	cursor: default;
+	font-size: 1rem;
+	padding-bottom: 0.5rem;
+	color: hsl(0, 10%, 100%, 0.5);
+}
+.hovered span,
+.hovered svg {
+	color: hsl(0, 10%, 100%, 0.5);
+}
+.hovered:hover span,
+.hovered:hover svg {
+	color: hsl(0, 10%, 100%, 1);
+}
+.sidePop {
+	position: static;
+	width: 80%;
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+	flex-direction: column;
+	background-color: white;
+	transition: all 0.25s ease-in-out;
+}
+
+.sidePop span {
+	padding: 0.5rem 0;
+}

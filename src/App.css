@@ -1,0 +1,30 @@
+.App {
+	position: relative;
+}
+.dashContainer {
+	position: relative;
+	z-index: 1;
+}
+.mainContent {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: whitesmoke;
+}
+.percentageContainer {
+	width: 100%;
+	background-color: lightgrey;
+}
+@media (min-width: 990px) {
+	.grids {
+		display: flex;
+		gap: 1rem;
+	}
+	.colorGrid {
+		width: 50%;
+	}
+	.textGrid {
+		margin-top: 1.5rem;
+		width: 50%;
+	}
+}
